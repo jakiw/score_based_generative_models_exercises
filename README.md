@@ -1,6 +1,17 @@
 # Diffusion Models for 2D Examples
 This Repo contains the notebooks for the __Challenge 1: Score-based generative models: Implementation, optimisation, generalisation__ of the _Accelerating generative models and nonconvex optimisation_  workshop, which can be found here https://akyildiz.me/tmcf/challenges.html
 
+## Setting Up the Environment
+```
+conda create --name sgm
+conda activate sgm
+conda install -c anaconda ipykernel
+python -m ipykernel install --user --name=sgm
+pip install --upgrade "jax[cpu]"
+pip install matplotlib
+pip install seaborn
+```
+
 ## Research Goals
 ### Generalization vs. Sample Density
 #### Sphere
